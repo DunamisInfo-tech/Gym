@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" ></script>
+<script src="https://code.highcharts.com/highcharts.js"> </script>
+
+{% load chartit %}
+{{ chart_list|load_charts:"cht"}}
+
+</head>
+<body>
+<div id="cht"> </div>
+</body>
+</html>
